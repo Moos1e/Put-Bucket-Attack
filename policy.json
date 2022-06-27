@@ -1,0 +1,24 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "list Policy",
+			"Principal": {},
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetBucketPolicy",
+				"s3:PutBucketPolicy"
+			],
+			"Resource": $bucket
+		},
+		{
+			"Sid": "ChangePolicy",
+			"Principal": {},
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject"
+			],
+			"Resource": $bucket/Object
+		}
+	]
+}
