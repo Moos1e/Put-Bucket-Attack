@@ -1,0 +1,3 @@
+If you found this - you won!
+
+If you're seeing this, you should check your bucket policies!
